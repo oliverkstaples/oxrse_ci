@@ -1,5 +1,6 @@
 import ci_course
 
+
 def test_greet():
     """
     Test the function `greet` in functionality.py
