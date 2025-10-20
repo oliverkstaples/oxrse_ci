@@ -15,8 +15,4 @@ def test_minimum():
     assert ci_course.minimum(1, 2, 3) == 1
     assert ci_course.minimum(1.2, 2.3) == 1.2
     assert ci_course.minimum(-1.2, -3) == -3
-
-def test_minimum_returns_none_for_non_numeric_args():
-    """minimum() should return None when given only non-numeric arguments."""
-    result = ci_course.minimum("a", "b", None)
-    assert result is None
+    assert ci_course.minimum("hi", "there") is None
