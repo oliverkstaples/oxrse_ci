@@ -1,17 +1,28 @@
-.. ci_docs documentation master file, created by
-   sphinx-quickstart on Mon Oct 20 11:29:57 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to the ci_docs Documentation
+====================================
 
-ci_docs documentation
-=====================
+**ci_docs** provides continuous integration examples, utilities, and workflows
+for Python projects. This documentation will help you understand the structure
+of the project, how to use its components, and how to extend it for your own
+CI/CD pipelines.
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Getting Started
+---------------
 
+If you're new to Sphinx or reStructuredText, check out the official
+`reStructuredText guide <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_.
+
+To begin exploring the documentation, use the links below.
+
+.. note::
+
+   This documentation is still a work in progress — contributions and
+   improvements are welcome!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 📘 Contents:
 
+   usage
+   api
+   changelog
