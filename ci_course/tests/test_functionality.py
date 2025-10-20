@@ -1,6 +1,5 @@
 import ci_course
 
-
 def test_greet():
     """
     Test the function `greet` in functionality.py
@@ -16,3 +15,8 @@ def test_minimum():
     assert ci_course.minimum(1, 2, 3) == 1
     assert ci_course.minimum(1.2, 2.3) == 1.2
     assert ci_course.minimum(-1.2, -3) == -3
+
+def test_minimum_returns_none_for_non_numeric_args():
+    """Check that minimum() returns None when given only non-numeric arguments."""
+    result = ci_course.minimum("a", "b", None)
+    assert result is None
