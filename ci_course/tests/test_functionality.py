@@ -18,5 +18,5 @@ def test_minimum():
 
 def test_minimum_returns_none_for_non_numeric_args():
     """minimum() should return None when given only non-numeric arguments."""
-    result = minimum("a", "b", None)
+    result = ci_course.minimum("a", "b", None)
     assert result is None
